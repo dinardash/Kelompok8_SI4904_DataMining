@@ -111,10 +111,7 @@ with tab1:
 
         submit = st.form_submit_button("Prediksi")
 
-        
-
     if submit:
-
         input_data = pd.DataFrame([{
             'Origin_Facility': Origin_Facility,
             'Vehicle_Type': Vehicle_Type,
